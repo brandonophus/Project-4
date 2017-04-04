@@ -65,7 +65,7 @@ body {
 }
 
 .header {
-  font-family: Helvetica, sans-serif;
+  font-family: Avenir, sans-serif;
   text-align: center;
   font-size: 40px;
   color: white;
@@ -104,7 +104,7 @@ body {
 .btnStart {
     text-align: center;
     padding: 6px;
-    margin-top: 400px;
+    margin-top: 450px;
     display: block;
 }
 
@@ -118,20 +118,22 @@ body {
 .blade {
   position: absolute;
   left: 50%;
-  top: 50px;
+  top: 100px;
   transform: translateX(-50%);
+  opacity: 0;
   transition: all .5s ease-in-out;
 }
 
 .blade.active {
-top: 0px
+  opacity: 50;
+  top: 20px
 }
 
 .skate > img {
   position: absolute;
   transform: translateX(-50%);
   left: 50%;
-  top: 50px;
+  top: 100px;
 }
 
 
