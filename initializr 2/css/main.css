@@ -60,16 +60,12 @@ body {
   background-color: #000000
 }
 
-.brand img {
-
-}
-
 .header {
   font-family: Avenir, sans-serif;
   text-align: center;
   font-size: 40px;
   color: white;
-  margin-top: auto;
+  margin-top: 30px;
   margin-bottom: 16px;
 }
 
